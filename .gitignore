@@ -1,2 +1,5 @@
+bin/
 buildout.cfg
+develop-eggs/
+eggs/
 etc
