@@ -1,8 +1,6 @@
 global
   log 127.0.0.1 local6
   maxconn  ${options.maxconn}
-  user     ${options.user}
-  group    ${options.group}
   daemon
   nbproc 1
 
