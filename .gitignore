@@ -3,3 +3,5 @@ buildout.cfg
 develop-eggs/
 eggs/
 etc
+/parts/
+.installed.cfg
