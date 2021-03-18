@@ -1,3 +1,4 @@
+.python-version
 bin/
 lib/
 buildout.cfg
