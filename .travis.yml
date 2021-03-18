@@ -6,4 +6,4 @@ install:
   - pip install -r requirements.txt
   - ln -s profiles/production.cfg buildout.cfg
 script:
-  - bin/buildout
+  - buildout -Nv
