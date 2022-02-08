@@ -33,7 +33,7 @@ frontend zopecluster
 
 backend zope
 #  appsession __ac len 32 timeout 1d
-  cookie serverid insert postonly indirect
+#  cookie serverid insert postonly indirect
   balance roundrobin
 #  option httpchk
   ${options.instances}
